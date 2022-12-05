@@ -1,7 +1,8 @@
 
 # Configuring Unity3D for VR development
 
-Note: Installing Oculus App on windows-> after downloading it needs you Instagram, Facebook or a Gmail(which already has an account) for login. It may not work properly sometimes. I used our lab's email for login.
+Note: Installing Oculus App on windows
+after downloading it needs you Instagram, Facebook or a Gmail(which already has an account) for login. It may not work properly sometimes. I used our lab's email for login.
 
 Note: After plugging your headset to the pc with the link (usb 3 and type-c), device and the controllers must be recognized and be paired to the pc. For me one of the controllers had problem and was not recognized by the headset. even after changing the battery. so I had to use another headset(with it's own controllers).
 
