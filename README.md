@@ -1,14 +1,13 @@
 
 # Configuring Unity3D for VR development
 
-Note: Installing Oclulus App on windows-> after downloading it needs you insta facebook or a gmail(which already has an account) to log in. It may not work properly sometimes. I used our lab's email to login.
+Note: Installing Oculus App on windows-> after downloading it needs you Instagram, Facebook or a Gmail(which already has an account) for login. It may not work properly sometimes. I used our lab's email for login.
 
-Note: After pluging your headset to the pc with the link (usb 3 and type-c) device and the controllers must be recognized and be paired to the pc. For me one of the controllers had probles and was not recognized by the headset. even after changing the battery. so I had to use another headset(with it's own controllers).
+Note: After plugging your headset to the pc with the link (usb 3 and type-c), device and the controllers must be recognized and be paired to the pc. For me one of the controllers had problem and was not recognized by the headset. even after changing the battery. so I had to use another headset(with it's own controllers).
 
 The configuration steps that did not work...
 - https://developer.oculus.com/documentation/unity/book-unity-gsg/
 - https://www.circuitstream.com/blog/oculus-unity-setup
-
 
 
 The configuration steps that WORKED ...
