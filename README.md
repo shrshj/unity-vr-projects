@@ -17,6 +17,7 @@ The configuration steps that WORKED ...
 
 Summary of the steps we need...
 1- create a 3D project
+
 2- XR Plugin Management Setup: Install it from project settings and select oculus for both android(for the quest) and pc
 3- change build setting so that we can deploy to android(for quest)
 4- In the "Player-> identification" check if the api level for android is correct (for now it should be marshmallow which means level 23)
