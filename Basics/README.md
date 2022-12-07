@@ -30,7 +30,7 @@ level 23)
 5- Installing Packages: Window tab ->  packages manager <br />
 change the "Packages: In project" to "Packages: Unity Registry" as below.
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/1.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/1.png" width="700"/>
 
 
 In the package manager from setting go to advanced settings and select "enable preview packages" so that we can also see the packages that are not 'LTS' yet.
@@ -38,18 +38,18 @@ Search for XR and install "XR interaction toolkit" and also make sure that "XR p
 Then press OK in all the dialog boxes that may appear and after restaring the project, in the package manager go to the "XR interaction toolkit" and in sample section import "starter Assets".
 Then in the below path you must see all the "XRI Default ..." .
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/2.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/2.png" width="700"/>
 
 
 6- Import Default Input Actions:
 Select and add them like the below image. (for all of them)
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/3.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/3.png" width="700"/>
 
 
 Then in "project settings -> preset manager" set the values as the below image.
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/4.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/4.png" width="700"/>
 
 
 7- install "polygon starter pack" which is free from asset store and import it.
@@ -59,18 +59,18 @@ Then in "project settings -> preset manager" set the values as the below image.
 9- Configure XR Rig (XR rig represents the user or player) <br />
 Right click in the Hierarchy and "XR -> Device-based -> XR origin (VR)". Then  the 'camera offset' must have 'main camera' and 'left and right controllers' as below
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/5.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/5.png" width="700"/>
 
 
 In the inspetor: Make sure that "input action manager script" component exsits in "XR Origin (VR)" and if it doesn't, add it from "add component section". Also, in the "Action Assets" it must have an element called "XRI Default Input Actions".
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/6.png" width="700"/> <br />
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/6.png" width="700"/> <br />
 
 
 Adding a Locomotion System: It will make us able to navigate instead of being in a static place. Right click in the Hierarchy and "XR -> Locomotion System" . 
 We are going to use continuous movement instead off teleportation so in the inspector window add another component which is called "Continuous Move Provider(Action-based)" and drag the locomotion system (itself) to  the system section. 
 Then change the selected options as below.
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/-media/7.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Basics/-media/7.png" width="700"/>
 
 
 10- Run
