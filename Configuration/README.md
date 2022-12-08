@@ -54,7 +54,7 @@ Then in "project settings -> preset manager" set the values as the below image.
 
 7- Add "XR -> Interaction Manager" to Hierarchy As below.
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/544.png" width="700"/>
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/5.png" width="700"/>
 
 
 8- Configure XR Rig (XR rig represents the user or player) <br />
