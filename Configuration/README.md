@@ -34,8 +34,8 @@ change the "Packages: In project" to "Packages: Unity Registry" as below.
 
 
 In the package manager from setting go to advanced settings and select "enable preview packages" so that we can also see the packages that are not 'LTS' yet.
-Search for XR and install "XR interaction toolkit" and also make sure that "XR plugin management" is also installed.
-Then press OK in all the dialog boxes that may appear and after restaring the project, in the package manager go to the "XR interaction toolkit" and in sample section import "starter Assets".
+Search for XR and install "XR interaction toolkit" and make sure that "XR plugin management" is also installed.
+Then press OK in all the dialog boxes that may appear and after restaring the project, in the package manager go to the "XR interaction toolkit" and in the Samples section import "starter Assets".
 Then in the below path you must see all the "XRI Default ..." .
 
 <img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/2.png" width="700"/>
@@ -52,30 +52,36 @@ Then in "project settings -> preset manager" set the values as the below image.
 <img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/4.png" width="700"/>
 
 
-7- install "polygon starter pack" which is free from asset store and import it.
+7- Add "XR -> Interaction Manager" to Hierarchy As below.
 
-8- select "polygonStarter -> Scenes -> Demo" 
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/544.png" width="700"/>
 
-9- Configure XR Rig (XR rig represents the user or player) <br />
+
+8- Configure XR Rig (XR rig represents the user or player) <br />
 Right click in the Hierarchy and "XR -> Device-based -> XR origin (VR)". Then  the 'camera offset' must have 'main camera' and 'left and right controllers' as below
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/5.png" width="700"/>
+
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/6.png" width="700"/>
 
 
 In the inspetor: Make sure that "input action manager script" component exsits in "XR Origin (VR)" and if it doesn't, add it from "add component section". Also, in the "Action Assets" it must have an element called "XRI Default Input Actions".
 
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/6.png" width="700"/> <br />
+
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/7.png" width="700"/> <br />
 
 
 Adding a Locomotion System: It will make us able to navigate instead of being in a static place. Right click in the Hierarchy and "XR -> Locomotion System" . 
 We are going to use continuous movement instead off teleportation so in the inspector window add another component which is called "Continuous Move Provider(Action-based)" and drag the locomotion system (itself) to  the system section. 
 Then change the selected options as below.
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/7.png" width="700"/>
+
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/8.png" width="700"/>
+
+Then change the selected options as below.
+??? crop
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/9.png" width="700"/>
+
+9- Run
 
 
-10- Run
-
-
-To create your own scene every thing is pretty the same, like the 'my scene' that I made in the "oculus-test project". <br />
 
 To make objects interactable: add "XR Grab Interactable" to your object. but make sure that it is on another object(floor) otherwise it will disapear in the space.
