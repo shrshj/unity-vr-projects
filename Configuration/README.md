@@ -77,8 +77,8 @@ Then change the selected options as below.
 <img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/8.png" width="700"/>
 
 Then change the selected options as below.
-??? crop
-<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/9.png" width="700"/>
+
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/9.png" width="500"/>
 
 9- Run
 
