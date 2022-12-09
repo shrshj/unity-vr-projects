@@ -5,10 +5,10 @@ using UnityEngine;
 public class led : MonoBehaviour
 {
     // Start is called before the first frame update
-    public SerialController serialController;
+    public SerialController serialController; // drag the controller prefab in hierarchy to here
     void Start()
     {
-        serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
+        
     }
 
     // Update is called once per frame
