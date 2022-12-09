@@ -4,6 +4,9 @@
 
 2- Install Ardity (more details <a href="https://github.com/shshjmakerspace/ArduinoUnity3D/tree/main/Ardity">here</a>)
 
-But we don't want to use demo scenes. instead after creating "MyMessageListener.cs" as it is explained in the ardity setup, we will create another script called "led.cs" and then add two methods for turning the led on or off.
+Drag "MyMessageListener.cs" and "led.cs" to a game object for example to the "XR Rig".
 
-3- 
+3- from Hierarchy Create a "XR->UI Canvas" and add to butons to it.
+
+?????
+ptoblem to solve

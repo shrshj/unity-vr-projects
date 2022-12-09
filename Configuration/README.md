@@ -56,6 +56,10 @@ Then in "project settings -> preset manager" set the values as the below image.
 
 <img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/5.png" width="700"/>
 
+And also check the setting to be as below...
+
+<img src="https://github.com/shshjmakerspace/Unity-VR-Projects/blob/main/Configuration/-media/5-2.png" width="700"/>
+
 
 8- Configure XR Rig (XR rig represents the user or player) <br />
 Right click in the Hierarchy and "XR -> Device-based -> XR origin (VR)". Then  the 'camera offset' must have 'main camera' and 'left and right controllers' as below
